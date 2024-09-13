@@ -12,9 +12,9 @@ This project is a multithreaded web server implemented in C++ designed to handle
 
    Edit the `config/env.cfg` file to set up your desired configuration parameters such as `PORT` and `MAX_CLIENTS`.
 
-2. **Build the Project**
+2. **Build and Run the Project**
 
-   In the main project directory, create a folder named `build`:
+   In the main project directory, create a folder named `build` and compile using following commands:
    ```bash
    mkdir build
    cd build
