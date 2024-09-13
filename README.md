@@ -1,13 +1,24 @@
-# weaver
-A multithreaded C++ webserver engineered for rapid and concurrent request handling.
+# Weaver
 
-#Overview 
-This project is a multithreaded web server implemented in C++ designed to handle multiple 
-client connections efficiently. The server uses socket programming to establish communication 
-with clients and employs threads and synchronization mechanisms to manage concurrent connections.
+A multithreaded C++ web server engineered for rapid and concurrent request handling.
 
-configure config/env.cfg file as per your requirement
-to compile and run this project.
-in the main project folder create a folder named "build"
-inside build, run "cmake.." and then "make".
-After successful compilation run ./test to launch the project.
+## Overview
+
+This project is a multithreaded web server implemented in C++ designed to handle multiple client connections efficiently. The server uses socket programming to establish communication with clients and employs threads and synchronization mechanisms to manage concurrent connections.
+
+## Setup and Build
+
+1. **Configure the Environment**
+
+   Edit the `config/env.cfg` file to set up your desired configuration parameters such as `PORT` and `MAX_CLIENTS`.
+
+2. **Build the Project**
+
+   In the main project directory, create a folder named `build`:
+   ```bash
+   mkdir build
+   cd build
+   cmake..
+   make
+   ./test
+
