@@ -35,4 +35,4 @@
 build/
 tests/build/
 rough.txt
-.vscode/
+.vscode

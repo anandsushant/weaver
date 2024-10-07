@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Define the project name and specify C++ standard
-project(Simplify VERSION 1.0 LANGUAGES CXX)
+project(Weaver VERSION 1.0 LANGUAGES CXX)
 
 enable_language(CXX)
 
@@ -17,4 +17,4 @@ include_directories(include)
 file(GLOB all_SRC  "${PROJECT_SOURCE_DIR}/src/*.cpp")
 
 # Add executable
-add_executable(test ${all_SRC})
+add_executable(weave ${all_SRC})
