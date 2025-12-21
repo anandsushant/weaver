@@ -6,7 +6,7 @@ The project serves as a hands-on exploration of Linux networking, thread synchro
 
 Motivation
 
-High-performance systems—such as trading engines, distributed services, and real-time backends—rely heavily on:
+High-performance systems, such as trading engines, distributed services, and real-time backends rely heavily on:
 
 efficient socket handling
 
@@ -42,8 +42,6 @@ Worker threads operate concurrently, enabling parallel request processing.
 Synchronization mechanisms are used to ensure:
 
 thread-safe shared state access
-
-absence of race conditions
 
 predictable behavior under concurrent load
 
